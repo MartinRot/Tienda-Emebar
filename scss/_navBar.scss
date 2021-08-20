@@ -1,0 +1,48 @@
+nav{
+    background-color: $bg-info;
+    position: sticky; /*Botonera sticky*/
+    
+    ul{
+        float: right;
+    }
+
+    ul li:hover ul{
+        display: block;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        font-family: $fontMain;
+        font-size: $fontSizeMedium;
+    }
+
+    
+    a:hover{
+        color: #4E5A62;
+    }
+
+    li{
+        margin-left: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #4E5A62;
+    }
+
+    /*WowJs*/
+    img:hover{
+        transform: scale(1.1);
+    }
+
+    ul li a{
+        /*Subrayado animado*/
+            background: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .9s;
+        }
+        a:hover, a:focus {
+            background-size: 100% 2px;
+        }
+
+}

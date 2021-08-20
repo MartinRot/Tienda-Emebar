@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cualquier consulta o duda estamos a disposición para ayudarte"> <!--Descripcion metadatos-->    
+    <meta name="author" content="www.martinrotelli.com.ar">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contactanos - Emebar</title>   
+</head>
+
+<nav>       
+    <a href="../index.html"><img src="../img/logo.png" alt="Emebar" height="48" width="210"></a>            
+
+    <ul> <!--Unorder list-->            
+        <li><a href="nosotros.html">Nosotros</a></li>             
+        <li><a href="productos.html">Productos</a> 
+            <ul>
+                <li><a href="">Argan</a></li>
+                <li><a href="">Jojoba</a></li>
+                <li><a href="">Melon</a></li>
+                <li><a href="">Moringa</a></li>
+            </ul>
+        </li>
+        <li><a href="como-usarlo.html">Como usarlo</a></li> 
+        <li><a href="shop.html">Shop</a></li> 
+        <li><a href="contactanos.html">Contactanos</a></li> 
+    </ul>    
+</nav>
+
+<body>
+
+    <section>        
+        <h1>Contactanos</h1>
+        <h2>Formulario de contacto</h2>
+        
+        <h3>Contacto</h3>        
+        <form action="envio.php" method="post">
+            <fieldset>
+                <legend>INFO DE CONTACTO</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Martin">         
+                
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Apellido"><br><br>    
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="mail@algo.com.ar"> 
+
+            </fieldset>    
+
+            <label for="comentarios">Deja tus ideas o comentarios</label><br>
+            <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea><br><br>
+            
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Enviar">   
+        </form>
+    </section>
+
+
+    <footer>
+        <section>
+            <ul> 
+                <li>
+                    <a href="https://es-la.facebook.com">Facebook</a>
+                </li>             
+
+                <li>
+                    <a href="https://www.instagram.com/">Instagram</a>                       
+                </li>
+                
+                <li>
+                    <a href="#">Politicas de entrega</a>            
+                </li>
+            </ul>
+        </section>
+        
+        <section class="textCenter">
+            <h5>Desarrollado por Martin Rotelli</h5>
+        </section>
+    </footer>
+    
+</body>
+</html>
