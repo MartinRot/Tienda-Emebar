@@ -26,11 +26,11 @@ body{
 }
 
 article{
-    display: $d-flex;
-    flex-direction: column;
-    align-content: space-between;
-    flex:1;
-	padding: 1rem;
+  display: $d-flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex:1;
+	padding: 2rem;
 	margin:0px;
 }
 
@@ -53,6 +53,15 @@ article{
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+
+#stars{
+  display: $d-flex;
+  flex-direction: row;
+  flex:1;
+  padding-top: 1rem;
+	padding-bottom: 0.2rem;
+  justify-content: center;
 }
 
 #testimoniosReverse{
@@ -133,6 +142,10 @@ article{
     background-color: #4E5A62;
 }
 
+.paddingLeft{
+  padding-left: $pl-30;
+}
+
 /*Testimonios*/
     .testimonios__white {
         font-style: normal;
@@ -140,14 +153,26 @@ article{
         font-size: 20px; /*Recomendado de 16 para arriba*/
         line-height: 24px; /*Interlineado - la altura o separacion de las letras - Recomendable un poco mas de font size*/
         color: white; }
+
+    .stars__white {
+        font-style: normal; 
+        font-size: 16px; 
+        line-height: 24px; 
+        color: white; }
   
     .testimonios__black {
         font-style: normal;
-        font-weight: 200; /*bold*/
-        font-size: 1.3rem;; /*Recomendado de 16 para arriba*/
-        line-height: 24px; /*Interlineado - la altura o separacion de las letras - Recomendable un poco mas de font size*/
-        color: black; }
-  
+        font-weight: 200; 
+        font-size: 1.3rem;; 
+        line-height: 24px; 
+        color: $bg-logo;  }
+
+    .stars__black {
+      font-style: normal; 
+      font-size: 16px; 
+      line-height: 24px; 
+      color: $bg-logo; }
+    
     .testimonios__titulos--white {
         font-family: 'Roboto', sans-serif;
         color: white;
@@ -158,7 +183,7 @@ article{
 
     .testimonios__titulos--black {
         font-family: 'Roboto', sans-serif;
-        color: black;
+        color: $bg-logo; 
         font-weight: 500;
         font-size: 1em;
         margin-top: 1em;
@@ -194,16 +219,32 @@ footer{
 }
 
 
+/*Destacado */
 
+.divisor-destacados {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .destacados-titulo {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
 
-
-
-
-
-
-
-
-
+  @media (min-width: 40em) {
+   
+    .destacados-titulo {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .destacados-titulo {
+      margin-top: 7rem;
+    }
+  }
+  
 
 
 

@@ -95,7 +95,7 @@ article {
   flex-direction: column;
   align-content: space-between;
   flex: 1;
-  padding: 1rem;
+  padding: 2rem;
   margin: 0px; }
 
 #productos {
@@ -115,6 +115,14 @@ article {
   justify-content: center;
   align-content: center;
   text-align: center; }
+
+#stars {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+  justify-content: center; }
 
 #testimoniosReverse {
   display: flex;
@@ -182,6 +190,9 @@ article {
 .color {
   background-color: #4E5A62; }
 
+.paddingLeft {
+  padding-left: 30px; }
+
 /*Testimonios*/
 .testimonios__white {
   font-style: normal;
@@ -193,15 +204,24 @@ article {
   /*Interlineado - la altura o separacion de las letras - Recomendable un poco mas de font size*/
   color: white; }
 
+.stars__white {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: white; }
+
 .testimonios__black {
   font-style: normal;
   font-weight: 200;
-  /*bold*/
   font-size: 1.3rem;
-  /*Recomendado de 16 para arriba*/
   line-height: 24px;
-  /*Interlineado - la altura o separacion de las letras - Recomendable un poco mas de font size*/
-  color: black; }
+  color: #4E5A62; }
+
+.stars__black {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4E5A62; }
 
 .testimonios__titulos--white {
   font-family: 'Roboto', sans-serif;
@@ -213,7 +233,7 @@ article {
 
 .testimonios__titulos--black {
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: #4E5A62;
   font-weight: 500;
   font-size: 1em;
   margin-top: 1em;
@@ -237,6 +257,25 @@ footer ul li {
 
 footer h4 {
   font-size: 18px; }
+
+/*Destacado */
+.divisor-destacados {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.destacados-titulo {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem; }
+
+@media (min-width: 40em) {
+  .destacados-titulo {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .destacados-titulo {
+    margin-top: 7rem; } }
 
 /* ---404--- */
 .error-container {
