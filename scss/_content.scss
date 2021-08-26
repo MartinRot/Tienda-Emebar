@@ -92,12 +92,12 @@ article{
 
 .bg-white{
 	background-color: blue;
-    text-align: center;
+  text-align: center;
 }
 
 .bg-grey{
 	background-color: grey;    
-    text-align: center;
+  text-align: center;
 }
 
 /* ---Texto--- */
@@ -218,7 +218,6 @@ footer{
 
 }
 
-
 /*Destacado */
 
 .divisor-destacados {
@@ -245,9 +244,6 @@ footer{
     }
   }
   
-
-
-
 
 /* ---404--- */
 
@@ -332,3 +328,23 @@ footer{
     margin-inline-end: 0px;
     font-weight: bold;
   }
+
+//NOSOTROS  
+.cover-container {
+  max-width: 62em;  
+}
+
+
+// Como usarlo
+
+.iconos-uso {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+  border-radius: .75rem;
+}

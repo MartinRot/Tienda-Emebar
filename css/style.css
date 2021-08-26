@@ -345,6 +345,20 @@ footer h4 {
   margin-inline-end: 0px;
   font-weight: bold; }
 
+.cover-container {
+  max-width: 62em; }
+
+.iconos-uso {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+  border-radius: .75rem; }
+
 footer {
   color: green;
   background: white;
