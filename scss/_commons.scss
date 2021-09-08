@@ -1,11 +1,10 @@
 //Variables
-
 //COLOR DE LOGO  VERDE OSCURO #4E5A62
 //COLOR LETRAS LOGO #E6E7E8
 
-*{
+* {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 $bg-dark:#3B3434;
@@ -13,7 +12,8 @@ $bg-info:#1C67B4;
 $bg-warning:#EDAD13;
 $bg-success:#36F328;
 $bg-logo: #4E5A62;
-$fontMain: 'Roboto Mono', monospace;
+$fontMain: 'Roboto Mono',
+monospace;
 
 //Variables de ancho
 $w-25:25%;
@@ -32,18 +32,19 @@ $h-100:100%;
 $d-flex:flex;
 $d-block:block;
 
-$py-1: 1em 0;//Padding top y bottom
+$py-1: 1em 0; //Padding top y bottom
 $px-1:0 1em; //Padding izquierda y derecha
 $p: 1em; //Padding para los 4 lados
 $pl-30: 30px; //
 
 //to <   ||   through <= 
-@for $i from 1 through 6{
-    h#{$i}{
-        font-size: 1em * $i;       
-        font-family: $fontMain;    
-        color: $bg-logo;        
-    } //Interpolacion - concatenar
-//Une el valor de la variable con la h y le va aumentando su valor en 1
-}
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 1em * $i;
+        font-family: $fontMain;
+        color: $bg-logo;
+    }
 
+    //Interpolacion - concatenar
+    //Une el valor de la variable con la h y le va aumentando su valor en 1
+}

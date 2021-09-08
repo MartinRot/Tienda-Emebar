@@ -40,8 +40,8 @@ nav {
   /*WowJs*/ }
   nav ul {
     float: right; }
-  nav ul li:hover ul {
-    display: block; }
+    nav ul li:hover ul {
+      display: block; }
   nav a {
     color: black;
     text-decoration: none;
@@ -62,7 +62,8 @@ nav {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .9s; }
-  nav a:hover, nav a:focus {
+  nav a:hover,
+  nav a:focus {
     background-size: 100% 2px; }
 
 /*h1, h2, h3{    
@@ -292,9 +293,8 @@ footer h4 {
     transform: translateY(-50%); } }
 
 .error-container .text404 {
-  margin: 0;
   font-size: 130px;
-  font-weight: 300; }
+  font-weight: 320; }
 
 @media (min-width: 480px) {
   .error-container .text404 {
@@ -306,7 +306,7 @@ footer h4 {
 
 @media (min-width: 768px) {
   .error-container .text404 {
-    font-size: 220px; } }
+    font-size: 170px; } }
 
 .return {
   color: rgba(255, 255, 255, 0.6);
