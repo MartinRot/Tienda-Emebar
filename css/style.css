@@ -70,6 +70,81 @@ nav {
     font-family: $fontMain;    
     color: $bg-logo;
 }*/
+@media only screen and (max-width: 576px) {
+  .card {
+    font-size: 1rem; }
+  .card-body {
+    font-size: 1rem; }
+  .card-title {
+    font-size: 0.8rem; }
+  .card-text {
+    font-size: 1rem; }
+  a.btn.btn-success {
+    font-size: 0.7rem; }
+  .mapa {
+    display: none; }
+  .img-destacada {
+    width: 70%;
+    height: 70%; } }
+
+@media only screen and (max-width: 768px) {
+  .card {
+    font-size: 1.2rem; }
+  .card-body {
+    font-size: 1.2rem; }
+  .card-title {
+    font-size: 1rem; }
+  .card-text {
+    font-size: 1.2rem; }
+  a.btn.btn-success {
+    font-size: 0.9rem; }
+  .mapa {
+    display: none; }
+  .img-destacada {
+    width: 70%;
+    height: 70%; } }
+
+/*BREAKPOINT LARGE (lg) <= 992px */
+@media only screen and (max-width: 992px) {
+  .testimonios-container {
+    font-size: 0.8rem; } }
+
+.img-destacada {
+  width: 90%;
+  height: 90%; }
+
+.testimonios-bloque {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+@media (max-width: 480px) {
+  .error-container {
+    position: relative;
+    top: 50%;
+    height: initial;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); } }
+
+@media (min-width: 480px) {
+  .error-container .text404 {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); } }
+
+@media (min-width: 768px) {
+  .error-container .text404 {
+    font-size: 170px; } }
+
+@media (min-width: 480px) {
+  .return {
+    position: absolute;
+    width: 100%;
+    bottom: 30px; } }
+
 p {
   font-family: "Roboto Mono", monospace;
   font-size: 0.8em;
@@ -94,7 +169,6 @@ body {
 article {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
   flex: 1;
   padding: 2rem;
   margin: 0px; }
@@ -118,7 +192,6 @@ article {
   text-align: center; }
 
 #stars {
-  display: flex;
   flex-direction: row;
   flex: 1;
   padding-top: 1rem;
@@ -261,64 +334,27 @@ footer h4 {
 
 /*Destacado */
 .divisor-destacados {
-  margin: 5rem 0;
-  /* Space out the Bootstrap <hr> more */ }
+  margin: 5rem 0; }
 
-/* Thin out the marketing headings */
 .destacados-titulo {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem; }
-
-@media (min-width: 40em) {
-  .destacados-titulo {
-    font-size: 50px; } }
-
-@media (min-width: 62em) {
-  .destacados-titulo {
-    margin-top: 7rem; } }
 
 /* ---404--- */
 .error-container {
   text-align: center;
   height: 100%; }
 
-@media (max-width: 480px) {
-  .error-container {
-    position: relative;
-    top: 50%;
-    height: initial;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); } }
-
 .error-container .text404 {
   font-size: 130px;
   font-weight: 320; }
-
-@media (min-width: 480px) {
-  .error-container .text404 {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); } }
-
-@media (min-width: 768px) {
-  .error-container .text404 {
-    font-size: 170px; } }
 
 .return {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   letter-spacing: -0.04em;
   margin: 0; }
-
-@media (min-width: 480px) {
-  .return {
-    position: absolute;
-    width: 100%;
-    bottom: 30px; } }
 
 .return a {
   padding-bottom: 1px;
