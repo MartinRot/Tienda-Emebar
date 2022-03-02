@@ -1,6 +1,6 @@
 # Proyecto Final curso Desarrollo Web - Coderhouse
 
-E-commerce construido para el Proyecto Final del curso React JS - Coderhouse.
+E-commerce construido para el Proyecto Final del curso Desarrollo Web - Coderhouse.
 
 Tecnologias 🛠️:
 
